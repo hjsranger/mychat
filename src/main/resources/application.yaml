@@ -1,0 +1,15 @@
+server:
+  port: 8090
+
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${jdbc.app.url}
+    username: ${jdbc.app.username}
+    password: ${jdbc.app.password}
+    initial-size: 15
+    maximum-pool-size: 30
+    test-while-idle: true
+    time-between-eviction-runs-millis: 300000
+    validation-query: SELECT 1
