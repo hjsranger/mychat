@@ -2,7 +2,7 @@ package com.hjs.mychat.controller;
 
 
 import com.hjs.mychat.entity.Users;
-import com.hjs.mychat.service.IUsersService;
+import com.hjs.mychat.service.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,13 +24,13 @@ import java.util.List;
 public class UsersController {
 
     @Autowired
-    private IUsersService iUsersService;
+    private UsersService iUsersService;
 
     @GetMapping("/test")
     public String test(){
 
         Users users = new Users();
-        users.setId("jianshuang_huang");
+        users.setId("jianshuang_huang22");
         users.setPassword("1");
         users.setFaceImageBig("1");
         users.setFaceImage("face");

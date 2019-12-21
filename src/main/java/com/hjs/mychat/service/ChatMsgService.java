@@ -1,8 +1,8 @@
-package com.hjs.mychat.service.impl;
+package com.hjs.mychat.service;
 
+import com.baomidou.mybatisplus.extension.service.IService;
 import com.hjs.mychat.entity.ChatMsg;
 import com.hjs.mychat.mapper.ChatMsgMapper;
-import com.hjs.mychat.service.IChatMsgService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,8 +15,8 @@ import org.springframework.stereotype.Service;
  * @since 2019-12-21
  */
 @Service
-public class ChatMsgServiceImpl extends ServiceImpl<ChatMsgMapper, ChatMsg> implements IChatMsgService {
+public class ChatMsgService extends ServiceImpl<ChatMsgMapper, ChatMsg>{
 
-    
+
 
 }

@@ -1,8 +1,8 @@
-package com.hjs.mychat.service.impl;
+package com.hjs.mychat.service;
 
+import com.baomidou.mybatisplus.extension.service.IService;
 import com.hjs.mychat.entity.FriendsRequest;
 import com.hjs.mychat.mapper.FriendsRequestMapper;
-import com.hjs.mychat.service.IFriendsRequestService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2019-12-21
  */
 @Service
-public class FriendsRequestServiceImpl extends ServiceImpl<FriendsRequestMapper, FriendsRequest> implements IFriendsRequestService {
+public class FriendsRequestService extends ServiceImpl<FriendsRequestMapper, FriendsRequest> {
 
 }

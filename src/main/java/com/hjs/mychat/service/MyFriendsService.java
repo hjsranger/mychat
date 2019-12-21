@@ -1,8 +1,7 @@
-package com.hjs.mychat.service.impl;
+package com.hjs.mychat.service;
 
 import com.hjs.mychat.entity.MyFriends;
 import com.hjs.mychat.mapper.MyFriendsMapper;
-import com.hjs.mychat.service.IMyFriendsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +14,6 @@ import org.springframework.stereotype.Service;
  * @since 2019-12-21
  */
 @Service
-public class MyFriendsServiceImpl extends ServiceImpl<MyFriendsMapper, MyFriends> implements IMyFriendsService {
+public class MyFriendsService extends ServiceImpl<MyFriendsMapper, MyFriends> {
 
 }
