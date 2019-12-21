@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2019-12-21
  */
 @RestController
-@RequestMapping("/friendsRequest")
+@RequestMapping("/api/friendsRequest")
 public class FriendsRequestController {
 
 }

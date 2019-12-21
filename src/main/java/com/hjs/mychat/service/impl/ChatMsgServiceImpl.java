@@ -17,4 +17,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class ChatMsgServiceImpl extends ServiceImpl<ChatMsgMapper, ChatMsg> implements IChatMsgService {
 
+    
+
 }
